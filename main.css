@@ -1,0 +1,229 @@
+html {
+	background-color: #201E1F;
+}
+
+h1 {
+	text-align: center;
+ }
+
+.navbar {
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	padding: 10px;
+	transform: translateX(-50%);
+	left: 50%;
+}
+
+.navbar ul{
+	padding: 0px;
+	width: 350px;
+	display: flex;
+	justify-content: center;
+	margin: 0 700px;
+	list-style-type: none;
+	background-color: rgb(0, 0, 0);
+	overflow: hidden;
+	border-style: solid;
+	border-radius: 100px;
+	border-width: 2px;
+	border-color: #EFBF04;
+}
+
+.navbar a{
+	color: #ECF8F8;
+	text-decoration: none;
+	padding: 8px;
+	display: block;
+	text-align: center;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 23px;
+}
+
+.navbar a:hover{
+	background-color: #EFBF04;
+	color: rgb(0, 0, 0);
+}
+
+.navbar li{
+	float: left;
+}
+
+.img {
+	text-align: center;
+ }
+
+.container {
+	height: auto;
+	width: fit-content;
+	margin: 180px 0px 800px 25%;
+	display: flex;
+	justify-content: left;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 30px;
+	width: 600px;
+	height: 400px;
+	color: #ECF8F8;
+	background-color: rgb(0, 0, 0);
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px;
+	border-color: #EFBF04;
+	font-size: 70px ;
+}
+
+.hook {
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+.motimportant {
+	color: #EFBF04;
+	text-decoration: underline;
+}
+
+.bouttons {
+	display: flex;
+	flex-direction: column;
+}
+
+.projetbutton {
+	width: 200px;
+	height: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px;
+	border-color: #EFBF04;
+	background-color: black;
+	margin: 10px;
+	margin-top: 20px;
+	color: #ECF8F8;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size:30px ;
+}
+
+.contactbutton:hover {
+	background-color: #EFBF04;
+	color: black;
+}
+
+.contactbutton {
+	width: 200px;
+	height: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px;
+	border-color: #EFBF04;
+	background-color: black;
+	margin: 10px;
+	margin-top: 160px;
+	color: #ECF8F8;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size:30px ;
+}
+
+.projetbutton:hover {
+	background-color: #EFBF04;
+	color: black;
+}
+
+h2 {
+	color: #EFBF04;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 90px;
+	display: flex;
+	justify-content: center;
+}
+
+.table {
+	color: #ECF8F8;
+	background-color: #EFBF04;
+
+	padding: 0px;
+	margin: 0px 200px 900px 22%;
+	height: auto;
+	width:fit-content;
+	display: flex;
+	justify-content:flex-start;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size:30px;
+}
+
+.headtable {
+	background-color: #EFBF04;
+	color: #000000;
+	width: 200px;
+	height: 50px;
+}
+
+.projet {
+	background-color: #000000;
+	width: 200px;
+	height: 50px;
+}
+
+.containercontact {
+	padding: 10px;
+	border-style: solid;
+	background-color: #000000;
+	border-color: #EFBF04;
+	display: flex;
+	justify-content: center;
+	width: fit-content;
+	margin-bottom: 500px;
+	margin-left: 610px;
+}
+
+
+
+.listcontact {
+	list-style: none;
+}
+
+.listcontact li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+	color: #ECF8F8;
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 40px;
+}
+
+.IGlogo:hover {
+	content: url('Images/IG\ logo\ white.png');
+	width: 100px;
+	margin-right: 40px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 9px;
+}
+
+.githublogo:hover {
+	content: url('Images/icone-github-white.png');
+	width: 100px;
+	margin-right: 40px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 9px;
+}
+
+.listcontact li img {
+	margin-right: 40px;
+}
+
+.afooter {
+	text-decoration: none;
+	color: #EFBF04;
+	
+}
+
+.afooter:hover {
+	color: #ECF8F8;
+}
